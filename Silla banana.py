@@ -114,7 +114,7 @@ async def _sillabanana(ctx:SlashContext, keko1:str,hotel:str):
     BrazoSofa = Image.open(r"imagenes/BrazoSofa.png").convert("RGBA")
     img1 = BrazoSofa.resize((131,157), Image.Resampling.LANCZOS)#tamaño Brazo Sofa
     
-    img1 = Image.open(r"imagenes/sofa.png").convert("RGBA") #Imagen del sofa habbo club
+    img1 = Image.open(r"imagenes/sofa.png").convert("RGBA") #Imagen del sofa
     img1 = img1.resize((131,157), Image.Resampling.LANCZOS)
 
 
@@ -130,7 +130,7 @@ async def _sillabanana(ctx:SlashContext, keko1:str,hotel:str):
 
    
 
-    img1.paste(BrazoSofa,(0,0), mask = BrazoSofa) #Posicion del trozo de sofa
+    img1.paste(BrazoSofa,(0,0), mask = BrazoSofa) #Posicion del brazoSofa
     
   
    
